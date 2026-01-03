@@ -13,11 +13,6 @@ body {
   max-width: 100vw;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding-top: 130px;
-  }
-}
 .first-nav {
   background-color: #000000;
   padding: 12px 0;
@@ -54,14 +49,14 @@ body {
   text-decoration: none; /* نشيل الخط الافتراضي */
 
   /* خط تحت النص */
-  border-bottom: 3px solid #3c1010; /* برتقالي غامق */
+  border-bottom: 3px solid #262f42; /* برتقالي غامق */
   padding-bottom: 3px; /* مسافة بسيطة بين النص والخط */
 
   transition: border-color 0.3s;
 }
 
 .first-nav a.best:hover {
-  border-color: #240a0a; /* يصبح أفتح شوي عند المرور */
+  border-color: #3e4960; /* يصبح أفتح شوي عند المرور */
 }
 
 .navbar {
