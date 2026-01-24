@@ -8,6 +8,7 @@
   outline: 1px solid red;
 } */
 
+html,
 body {
   overflow-x: hidden;
   max-width: 100vw;
@@ -128,7 +129,7 @@ body {
   height: 100vh;
   position: relative;
   z-index: -2;
-  background-image: url(image/logistics-management.jpg);
+  background-image: url(image/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -148,7 +149,6 @@ body {
 
 .hero .hero-content {
   text-align: center !important;
-  padding-top: 70px;
 }
 
 .hero .hero-content h2 {
@@ -194,6 +194,19 @@ body {
 @media (max-width: 991.98px) {
 }
 @media (max-width: 767.98px) {
+  .hero {
+    padding-top: 100px;
+    height: 60vh;
+  }
+  .hero .hero-content h2 {
+    font-size: 30px;
+  }
+  .hero .hero-content p {
+    font-size: 13px;
+  }
+  .hero .hero-content button {
+    padding: 7px 15px;
+  }
 }
 /* HERO */
 
@@ -266,6 +279,58 @@ body {
     width: 100%;
     text-align: center;
   }
+  .about .container {
+    margin-top: 30px;
+  }
+  .about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about h2 {
+    font-size: 25px;
+  }
+  .about .text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .about .img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .about .text {
+    margin-top: 50px;
+  }
+  .about .container {
+    margin-top: 20px;
+  }
+
+  .about h2::after {
+    width: 100px;
+  }
+  .about {
+    margin-bottom: 50px;
+  }
+  .about .text {
+    margin-top: 20px;
+  }
+  .about .text p {
+    line-height: 20px;
+  }
+  .about .text {
+    padding: 0 10px;
+  }
+  
+  .about h2 {
+    margin-bottom: 10px;
+  }
+  .about h2::after {
+    height: 3px;
+  }
+  .about {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
 }
 /* ABOUT */
 
@@ -368,7 +433,7 @@ body {
 }
 
 .services img {
-  height: 250px;
+  height: 300px;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -470,6 +535,7 @@ footer .map iframe {
   width: 150%;
   height: 450px;
   border: 0;
+  margin-left: 50px;
 }
 footer .info {
   margin-left: 300px;
@@ -498,11 +564,11 @@ footer h3 {
 }
 
 @media (max-width: 767.98px) {
-  footer .map {
-    margin-top: 50px;
-    width: 70% !important;
-    text-align: center;
-    max-width: 100%;
+  footer .map iframe {
+    width: 80%;
+  height: 200px;
+  border: 0;
+  margin-left: 50px;
   }
 
   footer h3 {
@@ -535,81 +601,6 @@ footer h3 {
   text-decoration: none;
 }
 
-/* @media (max-width: 1000px) {
-  .navbar .a {
-    margin-left: 20px !important;
-  }
-  .navbar .navbar-nav {
-    margin-left: 20px;
-  }
-
-  .hero {
-    height: 60vh;
-  }
-  .hero .overlay {
-    height: 60vh;
-    background-color: rgba(0, 0, 0, 0.696);
-  }
-  .hero .hero-content p {
-    width: 75%;
-    margin-left: 100px;
-  }
-
-  .about h2 {
-    margin-left: 360px;
-    width: 122px;
-  }
-  .about .img {
-    width: 100%;
-  }
-  .about .text {
-    margin-left: 190px;
-    text-align: center;
-  }
-  .about .text p {
-    width: 100%;
-    margin-left: -125px !important;
-  }
-
-  .portofolio h2 {
-    margin-left: 345px;
-    width: 125px;
-  }
-  .portofolio img {
-    width: 199%;
-  }
-
-  .services h2 {
-    margin-left: 345px;
-    width: 105px;
-  }
-  .services .container {
-    margin-left: 200px;
-  }
-  .services .card {
-    margin-bottom: 20px;
-  }
-
-  .revuse h2 {
-    margin-left: 345px;
-    width: 90px;
-  }
-  .revuse .card {
-    margin-left: 150px;
-  }
-  .revuse img {
-    text-align: center;
-  }
-
-  footer h2 {
-    margin-left: 335px;
-    width: 142px;
-  }
-  footer .info {
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-} */
 
 @media (max-width: 576px) {
   .whatsapp-float {
